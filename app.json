@@ -1,0 +1,17 @@
+{
+  "name": "climapp",
+  "displayName": "climapp",
+  "expo": {
+    "name": "climapp",
+    "slug": "climapp",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
