@@ -3,6 +3,7 @@ import { Platform, StyleSheet, Text, View } from "react-native";
 
 import Header from "./components/header";
 import WeatherDetails from "./components/weather-details";
+import SearchBar from "./components/search-bar";
 
 const instructions = Platform.select({
   ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
@@ -20,6 +21,7 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <WeatherDetails />
+      <SearchBar />
     </View>
   );
 }
